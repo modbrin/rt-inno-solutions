@@ -1,8 +1,12 @@
 #include "lighting.h"
+#include <filesystem>
+
+using namespace std::filesystem;
 
 int main(int argc, char* argv[])
 {
 	Lighting* render = new Lighting(1920, 1080);
+	std::cout << current_path() << std::endl;
 	int result = render->LoadGeometry("models/CornellBox-Original.obj");
 	if (result)
 	{
@@ -13,5 +17,6 @@ int main(int argc, char* argv[])
 	render->Clear();
 	render->DrawScene();
 	result = render->Save("results/lighting.png");
+	
 	return result;
 }

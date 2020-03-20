@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 	render->SetCamera(float3{ -0.5f, 0.99f, 1.5f }, float3{ 0, 0.99f, -1 }, float3{ 0, 1, 0 });
 	render->LoadBlueNoise("textures/blue-noise.png");
 	render->Clear();
-	render->DrawScene(1024);
+	render->DrawScene(32);
 	result = render->Save("results/denoising.png");
 	return result;
 }

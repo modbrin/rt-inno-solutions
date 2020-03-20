@@ -1,6 +1,7 @@
 workspace "Basics of ray tracing"
    configurations { "Debug", "Release" }
    language "C++"
+   cppdialect "C++17"
    architecture "x64"
    systemversion "latest"
    toolset "v142"

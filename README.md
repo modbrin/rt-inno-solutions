@@ -1,6 +1,8 @@
-# Basics of ray tracing labs
+# Basics of ray tracing labs Solutions
 
-This repo contains a template for Basics of ray tracing labs
+This repo contains solutions for Basics of ray tracing labs
+
+> by Maksim Surkov
 
 ## Pre requirements
 

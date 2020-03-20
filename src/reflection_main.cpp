@@ -3,7 +3,7 @@
 int main(int argc, char* argv[])
 {
     Reflection* render = new Reflection(1920, 1080);
-	int result = render->LoadGeometry("models/CornellBox-Original.obj");
+	int result = render->LoadGeometry("models/CornellBox-Mirror.obj");
 	if (result)
 	{
 		return result;

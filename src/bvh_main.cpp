@@ -3,7 +3,7 @@
 int main(int argc, char* argv[])
 {
 	BVH* render = new BVH(1920, 1080);
-	int result = render->LoadGeometry("models/CornellBox-Sphere.obj");
+	int result = render->LoadGeometry("models/CornellBox-Mirror.obj");
 	if (result)
 	{
 		return result;
